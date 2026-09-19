@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #08080A;
+    color: #f8fafc;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #FB7507 0%, #FFB800 100%);
+}
+
+.glass-card {
+  background: rgba(24, 24, 32, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
